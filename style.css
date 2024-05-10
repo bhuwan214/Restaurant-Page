@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    /* overflow: hidden; */
+}
+
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+nav{
+    width: 100vw;
+    height: 50px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.logo{
+ font-size: 23px;
+ margin-left: 50px;
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+     gap: 80px;
+     align-items: center;    
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.list a{
+text-decoration: none;
+color: black;
+font-size: 15px;
+}
+.social{
+    display: flex;
+    font-size: 24px;
+    margin-right: 80px;
+    gap: 20px;
+}
+
+.home{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-image: url(rachel-park-hrlvr2ZlUNk-unsplash.jpg) ;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+}
