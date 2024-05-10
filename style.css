@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,8 +10,9 @@
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-    /* overflow: hidden; */
+      /* overflow-x: hidden; */
 }
+
 
 
 body,html{
@@ -20,15 +24,14 @@ body,html{
 nav{
     width: 100vw;
     height: 50px;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
- 
+ z-index: 100;
 }
 .logo{
  font-size: 23px;
- margin-left: 50px;
+ margin-left: 3vw;
 }
 
 .option{
@@ -49,19 +52,111 @@ text-decoration: none;
 color: black;
 font-size: 15px;
 }
+
+
+.list a:hover{
+    transform: translate(0,-5px);
+    cursor: default;
+}
 .social{
     display: flex;
     font-size: 24px;
-    margin-right: 80px;
+    margin-right: 3.5vw;
     gap: 20px;
 }
 
-.home{
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    background-image: url(rachel-park-hrlvr2ZlUNk-unsplash.jpg) ;
+.home{   
+   /* background-image: url();
+    background-size: contain ;
+background-repeat: no-repeat;
+transform: rotate(180deg); */
+display: flex;
     width: 100vw;
-    height: 100vh;
-    background-position: center;
+  height: 93vh;
+    
+}
+
+h2{
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+h2 span{
+    
+    background-color: yellow;
+}
+p{
+
+        font-family: "Varela Round", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 10px;
+    text-wrap:balance;
+        color: rgb(91, 89, 89);
+        text-align: center;
+        min-width: 400px;
+      
+}
+
+.left{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.right{
+    width: 50vw;
+    height: 100%;  
+}
+
+
+img{
+    width: 400px;
+    
+}
+
+
+.stroke{
+position: absolute;
+top:-50px;
+right: -100px;
+width: 700px;
+
+
+}
+
+.blob{
+    width: 700px;
+    position: absolute;
+    top:-50px;
+    right: -180px;
+
+}
+
+.panImg{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+top:120px;
+right: 80px;
+    
+    }
+
+
+    h4{
+        position: absolute;
+        top:380px;
+        right: 140px;
+
+    }
+h4 span{
+  text-decoration: underline;
+    font-size: 25px;
+    font-weight: bold;
+
 }
