@@ -96,7 +96,7 @@ z-index: 10;
 }
 h2 span{
     
-    background-color: yellow;
+    background-color:#F4CE14;
 }
 p{
 
@@ -257,3 +257,42 @@ button{
    width: 150px;
    height: 40px; 
 }
+
+
+/*about us styling*/
+
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+
+
+}
+.row img{
+
+    width: max-content;
+    height: 300px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+background-color: #F4CE14;
+height: 200px;
+padding: 20px;
+}
+
