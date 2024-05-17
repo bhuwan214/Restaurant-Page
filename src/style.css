@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+}
+
+
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+
+nav{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.logo{
+    
+ font-size: 35px;
+ margin-left: 3vw;
+ margin-top: 30px;
+}
+.logo img{
+    width: 100px;
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+     gap: 9vw;
+     align-items: center;    
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.list a{
+text-decoration: none;
+color: black;
+font-size: 16px;
+}
+
+
+.list a:hover{
+    transform: translate(0,-5px);
+    cursor: default;
+}
+.social{
+    display: flex;
+    font-size: 30px;
+    margin-right: 3.5vw;
+    gap: 20px;
+}
+.content{
+   
+    width: 100vw;
+    height: 50vh;
+}
+
+.home{   
+
+    overflow-y: hidden;
+display: flex;
+    width: 100vw;
+  height:90.7vh;
+
+    
+}
+
+h2{
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+z-index: 10;
+}
+h2 span{
+    
+    background-color: yellow;
+}
+p{
+
+        font-family: "Varela Round", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 10px;
+    text-wrap:balance;
+        color: rgb(91, 89, 89);
+        text-align: center;
+        width: 500px;
+      z-index: 10;
+}
+
+.left{
+    
+    width: 42vw;
+    height: 90.7vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 8vw;
+}
+
+.right{
+
+    margin-right: 8vw;
+    width: 42vw;
+    height: 90.7vh;  
+}
+
+
+.svg-container{
+    
+    height: 100%;
+}
+.stroke{
+position: relative;
+top:-640px;
+right:20px;
+width: 450px; 
+
+}
+
+.blob{
+    width: 450px;
+    position: relative;
+    top:-140px;
+    right: -20px;
+
+}
+
+
+.pancake{
+  
+    z-index: 10;
+    position: relative;
+    top:100px;
+    right: -70px;
+    width: 250px;
+    gap: 10px;
+
+    
+}
+
+.panImg{
+
+    width: 250px;
+    height: 250px;
+    }
+
+
+    h4{
+  
+       text-align: center;
+
+    }
+h4 span{
+  text-decoration: underline;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+@media(max-width:1200px){
+    .left{
+        width: 45vw;
+        margin-left: 5vw;
+    }
+
+    .right{
+        width: 45vw;
+        margin-right: 5vw;
+    }
+
+    p{
+        width: auto;
+        text-wrap:stable
+    };
+
+
+}
