@@ -73,9 +73,9 @@ font-size: 16px;
     gap: 20px;
 }
 .content{
-   
+
     width: 100vw;
-    height: 50vh;
+    height: 89.3vh;
 }
 
 .home{   
@@ -201,4 +201,59 @@ h4 span{
     };
 
 
+}
+
+
+/* Contact page styling */
+
+.contact-page{
+    
+    padding: 20px;
+    background-color:#F4CE14;
+    width: 450px;
+    height: max-content;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 6px;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+p{
+    text-align: center;
+    padding: 5px;
+    line-height: 18px;
+    color: rgb(255, 253, 253);
+    margin-bottom: 9px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+label{
+    width: 65%;
+    /* background-color: aqua; */
+}
+
+input,textarea{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+button{
+    margin-top: 10px;
+   width: 150px;
+   height: 40px; 
 }
