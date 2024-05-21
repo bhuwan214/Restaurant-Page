@@ -1,8 +1,8 @@
 
-import {createAboutPage} from "../AboutUS.js";
-import {createHome} from "../home.js";
-import {menuPage} from "../menu .js"
-import {contactPage} from "../contact.js";
+import {createAboutPage} from "./AboutUs.js";
+import {createHome} from "./home.js";
+import {menuPage} from "./menu .js"
+import {contactPage} from "./contact.js";
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -41,6 +41,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // if (content.firstChild) {
         //     content.removeChild(content.firstChild);
         // }
+
+
 
         content.removeChild(content.firstChild);
         menuPage(content);

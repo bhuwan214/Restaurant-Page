@@ -25,6 +25,7 @@ body,html{
 
 nav{
 
+
     margin-left: 100px;
     margin-right: 100px;
     width: 85vw;
@@ -156,8 +157,9 @@ width: 450px;
 
 
 .pancake{
-  
-    z-index: 10;
+
+
+    z-index: 4;
     position: relative;
     top:100px;
     right: -70px;
@@ -202,6 +204,7 @@ h4 span{
         width: auto;
         text-wrap:stable
     };
+
 
 
 }
@@ -274,11 +277,11 @@ button:hover{
 
 
 .about-us{
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px 0;
     margin-top: 50px;
 gap: 40px;
 
@@ -319,23 +322,98 @@ padding: 20px;
 
 .menu{
    
-    padding-top: 60px;
-
-margin: 30px auto;
- 
+    padding-top: 40px;
+margin: 80px auto;
     width: 60%;
-    height: 80vh;
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr)) ;
     gap: 20px;
     justify-items: center;
-  
- 
 
 }
 
+
+
+/* Mobile layout from 676px down if got any interest to do it again ...*/
+
+@media (max-width:1400px){
+.menu{
+    width: 70%;
+}
+
+nav{
+    margin-left: 50px;
+    gap: 20vw;
+}
+
+
+
+@media (max-width:1200px){
+    .menu{
+    
+        width: 75%;
+    }
+    nav{
+        margin-left: 40px;
+        gap: 15vw;
+    }
+
+}
+
+
+@media (max-width:1100px){
+    .menu{
+        
+        width: 80%;
+    }
+    nav{
+        margin-left: 30px;
+        gap: 10vw;
+    }
+
+}
+
+@media (max-width:1000px){
+    .menu{
+        
+        width: 85%;
+    }
+    nav{
+        margin-left: 20px;
+        gap: 8vw;
+    }
+    .option{
+        gap: 10vw;
+    }
+}
+
+@media (max-width:950px){
+    .menu{
+        width: 70%;
+        
+    }
+
+    .options{
+        gap: 5vw;
+    }
+}
+
+
+
+@media (max-width:500px){
+    .menu{ 
+        width: 95%;
+        
+    }
+    .options{
+        gap: 2vw;
+    }
+}
+
+
+}
 .item-card{
-    background-color:#d1d7d9;
+    background-color:#e2ecef;
 /* background-color: white; */
 width: 250px;
 height: 350px;
