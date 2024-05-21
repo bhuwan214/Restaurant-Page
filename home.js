@@ -38,13 +38,13 @@ const content = document.getElementById("content");
 //Managing the images.. & little text
   img1.setAttribute("src", "blob.svg");
   img1.setAttribute("class", "blob");
-  img2.setAttribute("src", "stroke.svg");
+  img2.setAttribute("src", "../dist/stroke.svg");
   img2.setAttribute("class", "stroke");
 
   const cakeDiv = document.createElement("div");
   cakeDiv.setAttribute("class", "pancake");
 
-  img3.setAttribute("src", "pancakee.jpg");
+  img3.setAttribute("src", "./pancakee.jpg");
   img3.setAttribute("class", "panImg");
 
   const h4 = document.createElement("h4");
