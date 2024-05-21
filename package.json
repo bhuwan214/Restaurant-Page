@@ -1,20 +1,20 @@
 {
   "name": "resturant-page",
   "version": "1.0.0",
-  "main": "index.js",
-  "private": true,
+  "private":true,
   "scripts": {
     "build": "webpack"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "cli": "^1.0.1",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "loadash": "^1.0.0"
+    "lodash": "^4.17.21",
+    "webpack.config.js": "^0.0.0"
   }
 }
