@@ -1,15 +1,18 @@
 {
   "name": "resturant-page",
   "version": "1.0.0",
-  "private":true,
+  "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "nocopy": "git subtree push --prefix dist origin gh-pages"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "cli": "^1.0.1",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
   },

@@ -3,6 +3,7 @@ import {createAboutPage} from "./AboutUs.js";
 import {createHome} from "./home.js";
 import {menuPage} from "./menu .js"
 import {contactPage} from "./contact.js";
+import './style.css';
 
 
 document.addEventListener('DOMContentLoaded', () => {
