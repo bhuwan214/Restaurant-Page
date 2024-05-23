@@ -1,7 +1,7 @@
 import logo from './img/brandlogo.svg'
 import blob from './img/blob.svg'
 import stroke from './img/stroke.svg'
-import pancake from './img/pancakee.jpg'
+import pancake from './img/pancake.png'
 
 
  export function createHome(content) {

@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createHome: () => (/* binding */ createHome)\n/* harmony export */ });\n/* harmony import */ var _img_brandlogo_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/brandlogo.svg */ \"./src/img/brandlogo.svg\");\n/* harmony import */ var _img_blob_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/blob.svg */ \"./src/img/blob.svg\");\n/* harmony import */ var _img_stroke_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/stroke.svg */ \"./src/img/stroke.svg\");\n/* harmony import */ var _img_pancakee_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/pancakee.jpg */ \"./src/img/pancakee.jpg\");\n\r\n\r\n\r\n\r\n\r\n\r\n function createHome(content) {\r\n  const homeDiv = document.createElement(\"div\");\r\n  homeDiv.setAttribute(\"class\", \"home\");\r\n  content.appendChild(homeDiv);\r\n\r\n  //Creating the left and right part inside the home\r\n  const left = document.createElement(\"div\");\r\n  const right = document.createElement(\"div\");\r\n  left.setAttribute(\"class\", \"left\");\r\n  right.setAttribute(\"class\", \"right\");\r\n  homeDiv.appendChild(left);\r\n  homeDiv.appendChild(right);\r\n\r\n  //Inside the left.\r\n  const h2 = document.createElement(\"h2\");\r\n  const span1 = document.createElement(\"span\");\r\n  const p = document.createElement(\"p\");\r\n\r\n  h2.innerHTML = `Welcome to `;\r\n  span1.innerHTML = \"Bhako\";\r\n  p.innerHTML =\r\n    \"Discover a world of sweet and savory delights. From flaky croissants to decadent cakes, each treat is handcrafted with care and the finest ingredients. Whether it's a morning indulgence or a special occasion, our bakery is your destination for deliciousness.\";\r\n\r\n  left.appendChild(h2);\r\n  left.appendChild(p);\r\n  h2.appendChild(span1);\r\n\r\n  //Inside the right.\r\n  const svgDiv = document.createElement(\"div\");\r\n  svgDiv.setAttribute(\"class\", \"svg-container\");\r\n\r\n  const img1 = document.createElement(\"img\");\r\n  const img2 = document.createElement(\"img\");\r\n  const img3 = document.createElement(\"img\");\r\n\r\n//Managing the images.. & little text\r\n  img1.setAttribute(\"src\", `${_img_blob_svg__WEBPACK_IMPORTED_MODULE_1__}`);\r\n  img1.setAttribute(\"class\", \"blob\");\r\n  img2.setAttribute(\"src\", `${_img_stroke_svg__WEBPACK_IMPORTED_MODULE_2__}`);\r\n  img2.setAttribute(\"class\", \"stroke\");\r\n\r\n  const cakeDiv = document.createElement(\"div\");\r\n  cakeDiv.setAttribute(\"class\", \"pancake\");\r\n\r\n  img3.setAttribute(\"src\", `${_img_pancakee_jpg__WEBPACK_IMPORTED_MODULE_3__}`);\r\n  img3.setAttribute(\"class\", \"panImg\");\r\n\r\n  const h4 = document.createElement(\"h4\");\r\n  const span2 = document.createElement(\"span\");\r\n\r\n  span2.textContent = \"Pancake \";\r\n\r\n  right.appendChild(svgDiv);\r\n  svgDiv.appendChild(cakeDiv);\r\n  cakeDiv.appendChild(img3);\r\n  svgDiv.appendChild(img1);\r\n  svgDiv.appendChild(img2);\r\n  cakeDiv.appendChild(h4);\r\n  h4.appendChild(span2);\r\n\r\n  h4.innerHTML = span2.outerHTML + \" with blue berries\";\r\n}\r\n\r\n\n\n//# sourceURL=webpack://resturant-page/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createHome: () => (/* binding */ createHome)\n/* harmony export */ });\n/* harmony import */ var _img_brandlogo_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/brandlogo.svg */ \"./src/img/brandlogo.svg\");\n/* harmony import */ var _img_blob_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/blob.svg */ \"./src/img/blob.svg\");\n/* harmony import */ var _img_stroke_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/stroke.svg */ \"./src/img/stroke.svg\");\n/* harmony import */ var _img_pancake_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/pancake.png */ \"./src/img/pancake.png\");\n\r\n\r\n\r\n\r\n\r\n\r\n function createHome(content) {\r\n  const homeDiv = document.createElement(\"div\");\r\n  homeDiv.setAttribute(\"class\", \"home\");\r\n  content.appendChild(homeDiv);\r\n\r\n  //Creating the left and right part inside the home\r\n  const left = document.createElement(\"div\");\r\n  const right = document.createElement(\"div\");\r\n  left.setAttribute(\"class\", \"left\");\r\n  right.setAttribute(\"class\", \"right\");\r\n  homeDiv.appendChild(left);\r\n  homeDiv.appendChild(right);\r\n\r\n  //Inside the left.\r\n  const h2 = document.createElement(\"h2\");\r\n  const span1 = document.createElement(\"span\");\r\n  const p = document.createElement(\"p\");\r\n\r\n  h2.innerHTML = `Welcome to `;\r\n  span1.innerHTML = \"Bhako\";\r\n  p.innerHTML =\r\n    \"Discover a world of sweet and savory delights. From flaky croissants to decadent cakes, each treat is handcrafted with care and the finest ingredients. Whether it's a morning indulgence or a special occasion, our bakery is your destination for deliciousness.\";\r\n\r\n  left.appendChild(h2);\r\n  left.appendChild(p);\r\n  h2.appendChild(span1);\r\n\r\n  //Inside the right.\r\n  const svgDiv = document.createElement(\"div\");\r\n  svgDiv.setAttribute(\"class\", \"svg-container\");\r\n\r\n  const img1 = document.createElement(\"img\");\r\n  const img2 = document.createElement(\"img\");\r\n  const img3 = document.createElement(\"img\");\r\n\r\n//Managing the images.. & little text\r\n  img1.setAttribute(\"src\", `${_img_blob_svg__WEBPACK_IMPORTED_MODULE_1__}`);\r\n  img1.setAttribute(\"class\", \"blob\");\r\n  img2.setAttribute(\"src\", `${_img_stroke_svg__WEBPACK_IMPORTED_MODULE_2__}`);\r\n  img2.setAttribute(\"class\", \"stroke\");\r\n\r\n  const cakeDiv = document.createElement(\"div\");\r\n  cakeDiv.setAttribute(\"class\", \"pancake\");\r\n\r\n  img3.setAttribute(\"src\", `${_img_pancake_png__WEBPACK_IMPORTED_MODULE_3__}`);\r\n  img3.setAttribute(\"class\", \"panImg\");\r\n\r\n  const h4 = document.createElement(\"h4\");\r\n  const span2 = document.createElement(\"span\");\r\n\r\n  span2.textContent = \"Pancake \";\r\n\r\n  right.appendChild(svgDiv);\r\n  svgDiv.appendChild(cakeDiv);\r\n  cakeDiv.appendChild(img3);\r\n  svgDiv.appendChild(img1);\r\n  svgDiv.appendChild(img2);\r\n  cakeDiv.appendChild(h4);\r\n  h4.appendChild(span2);\r\n\r\n  h4.innerHTML = span2.outerHTML + \" with blue berries\";\r\n}\r\n\r\n\n\n//# sourceURL=webpack://resturant-page/./src/home.js?");
 
 /***/ }),
 
@@ -166,7 +166,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"d03d98c4c317e8882504.svg\";\n\n//# sourceURL=webpack://resturant-page/./src/img/blob.svg?");
+eval("module.exports = __webpack_require__.p + \"4d0a399f348400f6a5ca.svg\";\n\n//# sourceURL=webpack://resturant-page/./src/img/blob.svg?");
 
 /***/ }),
 
@@ -176,7 +176,7 @@ eval("module.exports = __webpack_require__.p + \"d03d98c4c317e8882504.svg\";\n\n
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"0671e05c29c9a8de696a.svg\";\n\n//# sourceURL=webpack://resturant-page/./src/img/brandlogo.svg?");
+eval("module.exports = __webpack_require__.p + \"1d729c13167f1a82fa91.svg\";\n\n//# sourceURL=webpack://resturant-page/./src/img/brandlogo.svg?");
 
 /***/ }),
 
@@ -186,17 +186,17 @@ eval("module.exports = __webpack_require__.p + \"0671e05c29c9a8de696a.svg\";\n\n
   \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"50ffe6c1418b277f20cd.jpg\";\n\n//# sourceURL=webpack://resturant-page/./src/img/bread.jpg?");
+eval("module.exports = __webpack_require__.p + \"fbd42aa9d1caf171c0c9.jpg\";\n\n//# sourceURL=webpack://resturant-page/./src/img/bread.jpg?");
 
 /***/ }),
 
-/***/ "./src/img/pancakee.jpg":
-/*!******************************!*\
-  !*** ./src/img/pancakee.jpg ***!
-  \******************************/
+/***/ "./src/img/pancake.png":
+/*!*****************************!*\
+  !*** ./src/img/pancake.png ***!
+  \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"f35f5dcf4ae58392b30a.jpg\";\n\n//# sourceURL=webpack://resturant-page/./src/img/pancakee.jpg?");
+eval("module.exports = __webpack_require__.p + \"445138f469194725df22.png\";\n\n//# sourceURL=webpack://resturant-page/./src/img/pancake.png?");
 
 /***/ }),
 
@@ -206,7 +206,7 @@ eval("module.exports = __webpack_require__.p + \"f35f5dcf4ae58392b30a.jpg\";\n\n
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"c373d99887c2160c25c0.jpg\";\n\n//# sourceURL=webpack://resturant-page/./src/img/pie.jpg?");
+eval("module.exports = __webpack_require__.p + \"fd456f41320032d66307.jpg\";\n\n//# sourceURL=webpack://resturant-page/./src/img/pie.jpg?");
 
 /***/ }),
 
@@ -216,7 +216,7 @@ eval("module.exports = __webpack_require__.p + \"c373d99887c2160c25c0.jpg\";\n\n
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"66dce5199bc70576f5cc.jpg\";\n\n//# sourceURL=webpack://resturant-page/./src/img/rool.jpg?");
+eval("module.exports = __webpack_require__.p + \"dc3d3ff5f655df74a033.jpg\";\n\n//# sourceURL=webpack://resturant-page/./src/img/rool.jpg?");
 
 /***/ }),
 
@@ -226,7 +226,7 @@ eval("module.exports = __webpack_require__.p + \"66dce5199bc70576f5cc.jpg\";\n\n
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"8e59ca70e5911f239515.svg\";\n\n//# sourceURL=webpack://resturant-page/./src/img/stroke.svg?");
+eval("module.exports = __webpack_require__.p + \"307028807324b17f2af3.svg\";\n\n//# sourceURL=webpack://resturant-page/./src/img/stroke.svg?");
 
 /***/ })
 
