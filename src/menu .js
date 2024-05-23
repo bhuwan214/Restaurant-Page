@@ -1,5 +1,6 @@
 const content = document.getElementById("content")
 
+import breadImg from "./img/bread.jpg"
 class  menuItem {
 
     constructor(itemNumber,imgSrc, itemName, price,details) {
@@ -11,6 +12,8 @@ class  menuItem {
     }
 
    CreateItemCard(){
+    
+  
     const itemCard= document.createElement("div");
     itemCard.className=`item-card ${this.itemNumber}`
 
@@ -61,16 +64,16 @@ export function menuPage(content){
     content.appendChild(Menu);
 
     const itemCards = [
-        new menuItem("One","../src/img/bread.jpg","bread","14.99","loafy hot and tasty bread lorem sdjc efilewv dvhjlsd n eiruevjnv oenfefjbdv mnscmbekef sc,nefkknc"),
-        new menuItem("One","../src/img/bread.jpg","bread","14.99","Indulge in the timeless delight of freshly baked loaf bread at our bakery,try for it yourself "),
-        new menuItem("One","../src/img/bread.jpg","bread","14.99"," Experience the comfort and satisfaction of warm, freshly baked bread with every bite at our bakery."),
-        new menuItem("One","../src/img/bread.jpg","bread","14.99","loafy hot and tasty bread lorem sdjc efilewv dvhjlsd n eiruevjnv oenfefjbdv mnscmbekef sc,nefkknc"),
-        new menuItem("One","../src/img/bread.jpg","bread","14.99","loafy hot and tasty bread lorem sdjc efilewv dvhjlsd n eiruevjnv oenfefjbdv mnscmbekef sc,nefkknc"),
-        new menuItem("One","../src/img/bread.jpg","bread","14.99","Indulge in the timeless delight of freshly baked loaf bread at our bakery"),
-        new menuItem("One","../src/img/bread.jpg","bread","14.99"," Experience the comfort and satisfaction of warm, freshly baked bread with every bite at our bakery."),
-        new menuItem("One","../src/img/bread.jpg","bread","14.99","loafy hot and tasty bread lorem sdjc efilewv dvhjlsd n eiruevjnv oenfefjbdv mnscmbekef sc,nefkknc"),
-        new menuItem("One","../src/img/bread.jpg","bread","14.99","loafy hot and tasty bread lorem sdjc efilewv dvhjlsd n eiruevjnv oenfefjbdv mnscmbekef sc,nefkknc"),
-        new menuItem("One","../src/img/bread.jpg","bread","14.99","loafy hot and tasty bread lorem sdjc efilewv dvhjlsd n eiruevjnv oenfefjbdv mnscmbekef sc,nefkknc")
+        new menuItem("One",`${breadImg}`,"bread","14.99","loafy hot and tasty bread lorem sdjc efilewv dvhjlsd n eiruevjnv oenfefjbdv mnscmbekef sc,nefkknc"),
+        new menuItem("One",`${breadImg}`,"bread","14.99","Indulge in the timeless delight of freshly baked loaf bread at our bakery,try for it yourself "),
+        new menuItem("One",`${breadImg}`,"bread","14.99"," Experience the comfort and satisfaction of warm, freshly baked bread with every bite at our bakery."),
+        new menuItem("One",`${breadImg}`,"bread","14.99","loafy hot and tasty bread lorem sdjc efilewv dvhjlsd n eiruevjnv oenfefjbdv mnscmbekef sc,nefkknc"),
+        new menuItem("One",`${breadImg}`,"bread","14.99","loafy hot and tasty bread lorem sdjc efilewv dvhjlsd n eiruevjnv oenfefjbdv mnscmbekef sc,nefkknc"),
+        new menuItem("One",`${breadImg}`,"bread","14.99","Indulge in the timeless delight of freshly baked loaf bread at our bakery"),
+        new menuItem("One",`${breadImg}`,"bread","14.99"," Experience the comfort and satisfaction of warm, freshly baked bread with every bite at our bakery."),
+        new menuItem("One",`${breadImg}`,"bread","14.99","loafy hot and tasty bread lorem sdjc efilewv dvhjlsd n eiruevjnv oenfefjbdv mnscmbekef sc,nefkknc"),
+        new menuItem("One",`${breadImg}`,"bread","14.99","loafy hot and tasty bread lorem sdjc efilewv dvhjlsd n eiruevjnv oenfefjbdv mnscmbekef sc,nefkknc"),
+        new menuItem("One",`${breadImg}`,"bread","14.99","loafy hot and tasty bread lorem sdjc efilewv dvhjlsd n eiruevjnv oenfefjbdv mnscmbekef sc,nefkknc")
     ]
 
     itemCards.forEach((ItemCard)=>{

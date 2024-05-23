@@ -1,4 +1,8 @@
-const content = document.getElementById("content");
+import logo from './img/brandlogo.svg'
+import blob from './img/blob.svg'
+import stroke from './img/stroke.svg'
+import pancake from './img/pancakee.jpg'
+
 
  export function createHome(content) {
   const homeDiv = document.createElement("div");
@@ -36,15 +40,15 @@ const content = document.getElementById("content");
   const img3 = document.createElement("img");
 
 //Managing the images.. & little text
-  img1.setAttribute("src", "../src/img/blob.svg");
+  img1.setAttribute("src", `${blob}`);
   img1.setAttribute("class", "blob");
-  img2.setAttribute("src", "../src/img/stroke.svg");
+  img2.setAttribute("src", `${stroke}`);
   img2.setAttribute("class", "stroke");
 
   const cakeDiv = document.createElement("div");
   cakeDiv.setAttribute("class", "pancake");
 
-  img3.setAttribute("src", "../src/img/pancakee.jpg");
+  img3.setAttribute("src", `${pancake}`);
   img3.setAttribute("class", "panImg");
 
   const h4 = document.createElement("h4");
